@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463741072769C6FF0058A449 /* FavoritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463741062769C6FF0058A449 /* FavoritesScreen.swift */; };
+		4637410B2769D3400058A449 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 4637410A2769D3400058A449 /* SwiftyJSON */; };
+		463B66CF27670FFD002171CA /* smart WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 463B66CE27670FFD002171CA /* smart WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		463B66D427670FFE002171CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463B66D327670FFE002171CA /* Assets.xcassets */; };
+		463B66DA27670FFF002171CA /* smart WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 463B66D927670FFF002171CA /* smart WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		463B66DF27670FFF002171CA /* smartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B66DE27670FFF002171CA /* smartApp.swift */; };
+		463B66E127670FFF002171CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B66E027670FFF002171CA /* ContentView.swift */; };
+		463B66E327670FFF002171CA /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B66E227670FFF002171CA /* NotificationController.swift */; };
+		463B66E527670FFF002171CA /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B66E427670FFF002171CA /* NotificationView.swift */; };
+		463B66E727670FFF002171CA /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B66E627670FFF002171CA /* ComplicationController.swift */; };
+		463B66E927671000002171CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463B66E827671000002171CA /* Assets.xcassets */; };
+		463B66FD27671514002171CA /* MainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B66FC27671514002171CA /* MainModule.swift */; };
+		46AB5A812768806D00542888 /* CompilationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB5A802768806D00542888 /* CompilationScreen.swift */; };
+		46AB5A85276888F600542888 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 46AB5A84276888F600542888 /* Kingfisher */; };
+		46C86EB027674E410001515F /* ChatsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C86EAF27674E410001515F /* ChatsList.swift */; };
+		46DD69F7276717D800FF6BA2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 46DD69F6276717D800FF6BA2 /* Alamofire */; };
+		46DD69F927672F8300FF6BA2 /* SignLn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD69F827672F8300FF6BA2 /* SignLn.swift */; };
+		46DD69FB276730E200FF6BA2 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD69FA276730E200FF6BA2 /* MainScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		463B66D027670FFD002171CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 463B66C427670FFC002171CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 463B66CD27670FFD002171CA;
+			remoteInfo = "smart WatchKit App";
+		};
+		463B66DB27670FFF002171CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 463B66C427670FFC002171CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 463B66D827670FFF002171CA;
+			remoteInfo = "smart WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		463B66F427671000002171CA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				463B66DA27670FFF002171CA /* smart WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463B66F827671000002171CA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				463B66CF27670FFD002171CA /* smart WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		463741062769C6FF0058A449 /* FavoritesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesScreen.swift; sourceTree = "<group>"; };
+		463B66CA27670FFD002171CA /* smart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		463B66CE27670FFD002171CA /* smart WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smart WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		463B66D327670FFE002171CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		463B66D927670FFF002171CA /* smart WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "smart WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		463B66DE27670FFF002171CA /* smartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartApp.swift; sourceTree = "<group>"; };
+		463B66E027670FFF002171CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		463B66E227670FFF002171CA /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		463B66E427670FFF002171CA /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		463B66E627670FFF002171CA /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		463B66E827671000002171CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		463B66ED27671000002171CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463B66EE27671000002171CA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		463B66FC27671514002171CA /* MainModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModule.swift; sourceTree = "<group>"; };
+		46AB5A802768806D00542888 /* CompilationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompilationScreen.swift; sourceTree = "<group>"; };
+		46C86EAF27674E410001515F /* ChatsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsList.swift; sourceTree = "<group>"; };
+		46DD69F827672F8300FF6BA2 /* SignLn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignLn.swift; sourceTree = "<group>"; };
+		46DD69FA276730E200FF6BA2 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		463B66D627670FFF002171CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4637410B2769D3400058A449 /* SwiftyJSON in Frameworks */,
+				46AB5A85276888F600542888 /* Kingfisher in Frameworks */,
+				46DD69F7276717D800FF6BA2 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		463B66C327670FFC002171CA = {
+			isa = PBXGroup;
+			children = (
+				463B66D227670FFD002171CA /* smart WatchKit App */,
+				463B66DD27670FFF002171CA /* smart WatchKit Extension */,
+				463B66CB27670FFD002171CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		463B66CB27670FFD002171CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				463B66CA27670FFD002171CA /* smart.app */,
+				463B66CE27670FFD002171CA /* smart WatchKit App.app */,
+				463B66D927670FFF002171CA /* smart WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		463B66D227670FFD002171CA /* smart WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				463B66D327670FFE002171CA /* Assets.xcassets */,
+			);
+			path = "smart WatchKit App";
+			sourceTree = "<group>";
+		};
+		463B66DD27670FFF002171CA /* smart WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				46AB5A82276880BF00542888 /* common */,
+				463B66DE27670FFF002171CA /* smartApp.swift */,
+				463B66FC27671514002171CA /* MainModule.swift */,
+				463B66E027670FFF002171CA /* ContentView.swift */,
+				463B66E227670FFF002171CA /* NotificationController.swift */,
+				463B66E427670FFF002171CA /* NotificationView.swift */,
+				463B66E627670FFF002171CA /* ComplicationController.swift */,
+				463B66E827671000002171CA /* Assets.xcassets */,
+				463B66ED27671000002171CA /* Info.plist */,
+				463B66EE27671000002171CA /* PushNotificationPayload.apns */,
+			);
+			path = "smart WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		46AB5A82276880BF00542888 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				46DD69F827672F8300FF6BA2 /* SignLn.swift */,
+				46DD69FA276730E200FF6BA2 /* MainScreen.swift */,
+				46C86EAF27674E410001515F /* ChatsList.swift */,
+				46AB5A802768806D00542888 /* CompilationScreen.swift */,
+				463741062769C6FF0058A449 /* FavoritesScreen.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		463B66C927670FFD002171CA /* smart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463B66F927671000002171CA /* Build configuration list for PBXNativeTarget "smart" */;
+			buildPhases = (
+				463B66C827670FFD002171CA /* Resources */,
+				463B66F827671000002171CA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				463B66D127670FFD002171CA /* PBXTargetDependency */,
+			);
+			name = smart;
+			packageProductDependencies = (
+			);
+			productName = smart;
+			productReference = 463B66CA27670FFD002171CA /* smart.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		463B66CD27670FFD002171CA /* smart WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463B66F527671000002171CA /* Build configuration list for PBXNativeTarget "smart WatchKit App" */;
+			buildPhases = (
+				463B66CC27670FFD002171CA /* Resources */,
+				463B66F427671000002171CA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				463B66DC27670FFF002171CA /* PBXTargetDependency */,
+			);
+			name = "smart WatchKit App";
+			productName = "smart WatchKit App";
+			productReference = 463B66CE27670FFD002171CA /* smart WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		463B66D827670FFF002171CA /* smart WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463B66F127671000002171CA /* Build configuration list for PBXNativeTarget "smart WatchKit Extension" */;
+			buildPhases = (
+				463B66D527670FFF002171CA /* Sources */,
+				463B66D627670FFF002171CA /* Frameworks */,
+				463B66D727670FFF002171CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "smart WatchKit Extension";
+			packageProductDependencies = (
+				46DD69F6276717D800FF6BA2 /* Alamofire */,
+				46AB5A84276888F600542888 /* Kingfisher */,
+				4637410A2769D3400058A449 /* SwiftyJSON */,
+			);
+			productName = "smart WatchKit Extension";
+			productReference = 463B66D927670FFF002171CA /* smart WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		463B66C427670FFC002171CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					463B66C927670FFD002171CA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					463B66CD27670FFD002171CA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					463B66D827670FFF002171CA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 463B66C727670FFC002171CA /* Build configuration list for PBXProject "smart" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 463B66C327670FFC002171CA;
+			packageReferences = (
+				46DD69F5276717D800FF6BA2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				46AB5A83276888F600542888 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				463741092769D3400058A449 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 463B66CB27670FFD002171CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				463B66C927670FFD002171CA /* smart */,
+				463B66CD27670FFD002171CA /* smart WatchKit App */,
+				463B66D827670FFF002171CA /* smart WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		463B66C827670FFD002171CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463B66CC27670FFD002171CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463B66D427670FFE002171CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463B66D727670FFF002171CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463B66E927671000002171CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		463B66D527670FFF002171CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C86EB027674E410001515F /* ChatsList.swift in Sources */,
+				46DD69FB276730E200FF6BA2 /* MainScreen.swift in Sources */,
+				46DD69F927672F8300FF6BA2 /* SignLn.swift in Sources */,
+				463741072769C6FF0058A449 /* FavoritesScreen.swift in Sources */,
+				463B66E327670FFF002171CA /* NotificationController.swift in Sources */,
+				463B66E127670FFF002171CA /* ContentView.swift in Sources */,
+				463B66E727670FFF002171CA /* ComplicationController.swift in Sources */,
+				463B66DF27670FFF002171CA /* smartApp.swift in Sources */,
+				463B66FD27671514002171CA /* MainModule.swift in Sources */,
+				463B66E527670FFF002171CA /* NotificationView.swift in Sources */,
+				46AB5A812768806D00542888 /* CompilationScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		463B66D127670FFD002171CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 463B66CD27670FFD002171CA /* smart WatchKit App */;
+			targetProxy = 463B66D027670FFD002171CA /* PBXContainerItemProxy */;
+		};
+		463B66DC27670FFF002171CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 463B66D827670FFF002171CA /* smart WatchKit Extension */;
+			targetProxy = 463B66DB27670FFF002171CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		463B66EF27671000002171CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		463B66F027671000002171CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		463B66F227671000002171CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"smart WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 67QT83XCS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "smart WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "smart WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = smart_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iuhugh.smart.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		463B66F327671000002171CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"smart WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 67QT83XCS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "smart WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "smart WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = smart_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iuhugh.smart.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		463B66F627671000002171CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67QT83XCS4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = smart_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "smart WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iuhugh.smart.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		463B66F727671000002171CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67QT83XCS4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = smart_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "smart WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iuhugh.smart.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		463B66FA27671000002171CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67QT83XCS4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iuhugh.smart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		463B66FB27671000002171CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67QT83XCS4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iuhugh.smart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		463B66C727670FFC002171CA /* Build configuration list for PBXProject "smart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463B66EF27671000002171CA /* Debug */,
+				463B66F027671000002171CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463B66F127671000002171CA /* Build configuration list for PBXNativeTarget "smart WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463B66F227671000002171CA /* Debug */,
+				463B66F327671000002171CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463B66F527671000002171CA /* Build configuration list for PBXNativeTarget "smart WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463B66F627671000002171CA /* Debug */,
+				463B66F727671000002171CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463B66F927671000002171CA /* Build configuration list for PBXNativeTarget "smart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463B66FA27671000002171CA /* Debug */,
+				463B66FB27671000002171CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		463741092769D3400058A449 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		46AB5A83276888F600542888 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		46DD69F5276717D800FF6BA2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4637410A2769D3400058A449 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 463741092769D3400058A449 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		46AB5A84276888F600542888 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46AB5A83276888F600542888 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		46DD69F6276717D800FF6BA2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46DD69F5276717D800FF6BA2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 463B66C427670FFC002171CA /* Project object */;
+}

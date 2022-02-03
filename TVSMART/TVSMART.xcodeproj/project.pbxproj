@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		467E4DB0276B0438000717C0 /* TVSMARTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E4DAF276B0438000717C0 /* TVSMARTApp.swift */; };
+		467E4DB2276B0438000717C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E4DB1276B0438000717C0 /* ContentView.swift */; };
+		467E4DB4276B043A000717C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467E4DB3276B043A000717C0 /* Assets.xcassets */; };
+		467E4DB7276B043A000717C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467E4DB6276B043A000717C0 /* Preview Assets.xcassets */; };
+		467E4DBF276B061D000717C0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 467E4DBE276B061D000717C0 /* Kingfisher */; };
+		467E4DC2276B064B000717C0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 467E4DC1276B064B000717C0 /* Alamofire */; };
+		467E4DC5276B06CF000717C0 /* SignLn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E4DC4276B06CF000717C0 /* SignLn.swift */; };
+		467E4DC7276B0A05000717C0 /* MainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E4DC6276B0A05000717C0 /* MainModule.swift */; };
+		467E4DC9276B1065000717C0 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E4DC8276B1065000717C0 /* MainScreen.swift */; };
+		467E4DCC276B159E000717C0 /* ViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E4DCB276B159E000717C0 /* ViewModule.swift */; };
+		467E4DCE276B40B3000717C0 /* MovieScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E4DCD276B40B3000717C0 /* MovieScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		467E4DAC276B0438000717C0 /* TVSMART.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVSMART.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		467E4DAF276B0438000717C0 /* TVSMARTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVSMARTApp.swift; sourceTree = "<group>"; };
+		467E4DB1276B0438000717C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		467E4DB3276B043A000717C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		467E4DB6276B043A000717C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		467E4DC4276B06CF000717C0 /* SignLn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignLn.swift; sourceTree = "<group>"; };
+		467E4DC6276B0A05000717C0 /* MainModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModule.swift; sourceTree = "<group>"; };
+		467E4DC8276B1065000717C0 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		467E4DCA276B1100000717C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		467E4DCB276B159E000717C0 /* ViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModule.swift; sourceTree = "<group>"; };
+		467E4DCD276B40B3000717C0 /* MovieScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		467E4DA9276B0438000717C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467E4DBF276B061D000717C0 /* Kingfisher in Frameworks */,
+				467E4DC2276B064B000717C0 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		467E4DA3276B0438000717C0 = {
+			isa = PBXGroup;
+			children = (
+				467E4DAE276B0438000717C0 /* TVSMART */,
+				467E4DAD276B0438000717C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		467E4DAD276B0438000717C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				467E4DAC276B0438000717C0 /* TVSMART.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		467E4DAE276B0438000717C0 /* TVSMART */ = {
+			isa = PBXGroup;
+			children = (
+				467E4DCA276B1100000717C0 /* Info.plist */,
+				467E4DC3276B06BD000717C0 /* common */,
+				467E4DAF276B0438000717C0 /* TVSMARTApp.swift */,
+				467E4DB1276B0438000717C0 /* ContentView.swift */,
+				467E4DB3276B043A000717C0 /* Assets.xcassets */,
+				467E4DB5276B043A000717C0 /* Preview Content */,
+				467E4DC6276B0A05000717C0 /* MainModule.swift */,
+				467E4DCB276B159E000717C0 /* ViewModule.swift */,
+			);
+			path = TVSMART;
+			sourceTree = "<group>";
+		};
+		467E4DB5276B043A000717C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				467E4DB6276B043A000717C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		467E4DC3276B06BD000717C0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				467E4DC4276B06CF000717C0 /* SignLn.swift */,
+				467E4DC8276B1065000717C0 /* MainScreen.swift */,
+				467E4DCD276B40B3000717C0 /* MovieScreen.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		467E4DAB276B0438000717C0 /* TVSMART */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467E4DBA276B043A000717C0 /* Build configuration list for PBXNativeTarget "TVSMART" */;
+			buildPhases = (
+				467E4DA8276B0438000717C0 /* Sources */,
+				467E4DA9276B0438000717C0 /* Frameworks */,
+				467E4DAA276B0438000717C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVSMART;
+			packageProductDependencies = (
+				467E4DBE276B061D000717C0 /* Kingfisher */,
+				467E4DC1276B064B000717C0 /* Alamofire */,
+			);
+			productName = TVSMART;
+			productReference = 467E4DAC276B0438000717C0 /* TVSMART.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		467E4DA4276B0438000717C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					467E4DAB276B0438000717C0 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 467E4DA7276B0438000717C0 /* Build configuration list for PBXProject "TVSMART" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 467E4DA3276B0438000717C0;
+			packageReferences = (
+				467E4DBD276B061D000717C0 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				467E4DC0276B064B000717C0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 467E4DAD276B0438000717C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				467E4DAB276B0438000717C0 /* TVSMART */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		467E4DAA276B0438000717C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467E4DB7276B043A000717C0 /* Preview Assets.xcassets in Resources */,
+				467E4DB4276B043A000717C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467E4DA8276B0438000717C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467E4DCC276B159E000717C0 /* ViewModule.swift in Sources */,
+				467E4DC5276B06CF000717C0 /* SignLn.swift in Sources */,
+				467E4DB2276B0438000717C0 /* ContentView.swift in Sources */,
+				467E4DCE276B40B3000717C0 /* MovieScreen.swift in Sources */,
+				467E4DC9276B1065000717C0 /* MainScreen.swift in Sources */,
+				467E4DC7276B0A05000717C0 /* MainModule.swift in Sources */,
+				467E4DB0276B0438000717C0 /* TVSMARTApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		467E4DB8276B043A000717C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		467E4DB9276B043A000717C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		467E4DBB276B043A000717C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TVSMART/Preview Content\"";
+				DEVELOPMENT_TEAM = 67QT83XCS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TVSMART/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iuhugh.TVSMART;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		467E4DBC276B043A000717C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TVSMART/Preview Content\"";
+				DEVELOPMENT_TEAM = 67QT83XCS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TVSMART/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iuhugh.TVSMART;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		467E4DA7276B0438000717C0 /* Build configuration list for PBXProject "TVSMART" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467E4DB8276B043A000717C0 /* Debug */,
+				467E4DB9276B043A000717C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467E4DBA276B043A000717C0 /* Build configuration list for PBXNativeTarget "TVSMART" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467E4DBB276B043A000717C0 /* Debug */,
+				467E4DBC276B043A000717C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		467E4DBD276B061D000717C0 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		467E4DC0276B064B000717C0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		467E4DBE276B061D000717C0 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 467E4DBD276B061D000717C0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		467E4DC1276B064B000717C0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 467E4DC0276B064B000717C0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 467E4DA4276B0438000717C0 /* Project object */;
+}

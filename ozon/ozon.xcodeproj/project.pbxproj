@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460F15EE27916C43000C0406 /* Screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F15ED27916C43000C0406 /* Screen2.swift */; };
+		460F15F02791724F000C0406 /* Screen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F15EF2791724F000C0406 /* Screen3.swift */; };
+		460F15F327917908000C0406 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 460F15F227917908000C0406 /* Kingfisher */; };
+		464E2257278FFADA00D9720D /* MainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464E2256278FFADA00D9720D /* MainModule.swift */; };
+		464E225A278FFAFF00D9720D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 464E2259278FFAFF00D9720D /* Alamofire */; };
+		46FDBB5F278FF7B600FE223B /* ozonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDBB5E278FF7B600FE223B /* ozonApp.swift */; };
+		46FDBB61278FF7B600FE223B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDBB60278FF7B600FE223B /* ContentView.swift */; };
+		46FDBB63278FF7B700FE223B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FDBB62278FF7B700FE223B /* Assets.xcassets */; };
+		46FDBB66278FF7B700FE223B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FDBB65278FF7B700FE223B /* Preview Assets.xcassets */; };
+		46FDBB6D278FF83D00FE223B /* Screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDBB6C278FF83D00FE223B /* Screen1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		460F15ED27916C43000C0406 /* Screen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2.swift; sourceTree = "<group>"; };
+		460F15EF2791724F000C0406 /* Screen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen3.swift; sourceTree = "<group>"; };
+		464E2256278FFADA00D9720D /* MainModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModule.swift; sourceTree = "<group>"; };
+		464E225B279023E700D9720D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		46FDBB5B278FF7B600FE223B /* ozon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ozon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FDBB5E278FF7B600FE223B /* ozonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ozonApp.swift; sourceTree = "<group>"; };
+		46FDBB60278FF7B600FE223B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46FDBB62278FF7B700FE223B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46FDBB65278FF7B700FE223B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46FDBB6C278FF83D00FE223B /* Screen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46FDBB58278FF7B600FE223B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460F15F327917908000C0406 /* Kingfisher in Frameworks */,
+				464E225A278FFAFF00D9720D /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46FDBB52278FF7B500FE223B = {
+			isa = PBXGroup;
+			children = (
+				46FDBB5D278FF7B600FE223B /* ozon */,
+				46FDBB5C278FF7B600FE223B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46FDBB5C278FF7B600FE223B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46FDBB5B278FF7B600FE223B /* ozon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46FDBB5D278FF7B600FE223B /* ozon */ = {
+			isa = PBXGroup;
+			children = (
+				464E225B279023E700D9720D /* Info.plist */,
+				46FDBB5E278FF7B600FE223B /* ozonApp.swift */,
+				46FDBB6C278FF83D00FE223B /* Screen1.swift */,
+				460F15ED27916C43000C0406 /* Screen2.swift */,
+				460F15EF2791724F000C0406 /* Screen3.swift */,
+				46FDBB64278FF7B700FE223B /* Preview Content */,
+				46FDBB60278FF7B600FE223B /* ContentView.swift */,
+				464E2256278FFADA00D9720D /* MainModule.swift */,
+				46FDBB62278FF7B700FE223B /* Assets.xcassets */,
+			);
+			path = ozon;
+			sourceTree = "<group>";
+		};
+		46FDBB64278FF7B700FE223B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46FDBB65278FF7B700FE223B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46FDBB5A278FF7B600FE223B /* ozon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FDBB69278FF7B700FE223B /* Build configuration list for PBXNativeTarget "ozon" */;
+			buildPhases = (
+				46FDBB57278FF7B600FE223B /* Sources */,
+				46FDBB58278FF7B600FE223B /* Frameworks */,
+				46FDBB59278FF7B600FE223B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ozon;
+			packageProductDependencies = (
+				464E2259278FFAFF00D9720D /* Alamofire */,
+				460F15F227917908000C0406 /* Kingfisher */,
+			);
+			productName = ozon;
+			productReference = 46FDBB5B278FF7B600FE223B /* ozon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46FDBB53278FF7B500FE223B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					46FDBB5A278FF7B600FE223B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 46FDBB56278FF7B500FE223B /* Build configuration list for PBXProject "ozon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46FDBB52278FF7B500FE223B;
+			packageReferences = (
+				464E2258278FFAFF00D9720D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				460F15F127917908000C0406 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 46FDBB5C278FF7B600FE223B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46FDBB5A278FF7B600FE223B /* ozon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46FDBB59278FF7B600FE223B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FDBB66278FF7B700FE223B /* Preview Assets.xcassets in Resources */,
+				46FDBB63278FF7B700FE223B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46FDBB57278FF7B600FE223B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FDBB6D278FF83D00FE223B /* Screen1.swift in Sources */,
+				460F15EE27916C43000C0406 /* Screen2.swift in Sources */,
+				46FDBB61278FF7B600FE223B /* ContentView.swift in Sources */,
+				460F15F02791724F000C0406 /* Screen3.swift in Sources */,
+				464E2257278FFADA00D9720D /* MainModule.swift in Sources */,
+				46FDBB5F278FF7B600FE223B /* ozonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46FDBB67278FF7B700FE223B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46FDBB68278FF7B700FE223B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46FDBB6A278FF7B700FE223B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ozon/Preview Content\"";
+				DEVELOPMENT_TEAM = 67QT83XCS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ozon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iuhugh.ozon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46FDBB6B278FF7B700FE223B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ozon/Preview Content\"";
+				DEVELOPMENT_TEAM = 67QT83XCS4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ozon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iuhugh.ozon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46FDBB56278FF7B500FE223B /* Build configuration list for PBXProject "ozon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FDBB67278FF7B700FE223B /* Debug */,
+				46FDBB68278FF7B700FE223B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46FDBB69278FF7B700FE223B /* Build configuration list for PBXNativeTarget "ozon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FDBB6A278FF7B700FE223B /* Debug */,
+				46FDBB6B278FF7B700FE223B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		460F15F127917908000C0406 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		464E2258278FFAFF00D9720D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		460F15F227917908000C0406 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 460F15F127917908000C0406 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		464E2259278FFAFF00D9720D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 464E2258278FFAFF00D9720D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 46FDBB53278FF7B500FE223B /* Project object */;
+}
